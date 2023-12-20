@@ -1,0 +1,77 @@
+﻿header {
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman';
+}
+
+h1 {
+    color: white;
+    margin: 0px;
+    text-align: left;
+    padding: 30px;
+    background-color: #512698;
+}
+
+nav {
+    background-color: #FFC82e;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding-bottom: 50px;
+}
+
+.flex-item {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.EventSection .flex-container {
+    flex-flow: row wrap;
+}
+
+.EventSection .EventImage {
+    flex: 1;
+}
+
+.EventSection .EventInfo {
+    flex: 2;
+}
+
+.AboutUsSection .flex-container {
+    flex-flow: row wrap;
+}
+
+.AboutUsSection .AboutUsImage {
+    flex: 1;
+}
+
+.AboutUsSection .AboutUsInfo {
+    flex: 2;
+}
+
+.ContactUsSection .flex-container {
+    flex-flow: row wrap;
+}
+
+.ContactUsSection .ContactUsImage {
+    flex: 1;
+}
+
+.ContactUsSection .ContactUsInfo {
+    flex: 2;
+}
+
+
+footer {
+    text-align: center;
+}
